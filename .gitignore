@@ -1,0 +1,57 @@
+# Unity
+Assets/
+Library/
+Packages/
+ProjectSettings/
+UserSettings/
+unity_pnp/
+unity_pnp_project/
+*.alf
+*.asset
+*.unity
+*.prefab
+*.meta
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Temp / test
+test_results/
+test_*.py
+option_a_ideas.md
+task_cn.md
+task_new.md
+rl_arm_drawing.py
+rl_arm_drawing_v2.py
+1.ipynb
+2.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML logs
+logs/
+*.log
+tensorboard/
+
+# Old results gif (keep mp4 only)
+results/demo_triangle.gif
+
+# ONNX external data (we use single-file)
+results/*.onnx.data
+
+# Course docs
+*.pdf
