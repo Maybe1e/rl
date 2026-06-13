@@ -27,7 +27,9 @@ venv/
 test_results/
 test_*.py
 option_a_ideas.md
+task.md
 task_cn.md
+task_new.md
 task_new.md
 rl_arm_drawing.py
 rl_arm_drawing_v2.py
