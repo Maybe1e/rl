@@ -93,7 +93,7 @@ $$q \leftarrow q + \dot{q} \cdot \Delta t$$
 
 ### 4.3 代码仓库与模型导出
 
-完整代码已上传至GitHub仓库，包含Docker镜像。仓库结构包含：rl_project目录（环境定义、模式生成、训练与评估脚本），results目录（训练模型与可视化输出），Dockerfile用于环境复现，requirements.txt列出Python依赖。训练完成的PPO策略已导出为ONNX格式（`results/ppo_arm_drawing.onnx`，277 KB，单文件包含完整网络权重），可直接通过ONNX Runtime加载进行推理，无需依赖Stable-Baselines3或PyTorch框架。
+完整代码已上传至GitHub仓库：[https://github.com/Maybe1e/rl](https://github.com/Maybe1e/rl)，包含Docker镜像配置。仓库结构包含：rl_project目录（环境定义、模式生成、训练与评估脚本），results目录（训练模型与可视化输出），Dockerfile用于环境复现，requirements.txt列出Python依赖。训练完成的PPO策略已导出为ONNX格式（`results/ppo_arm_drawing.onnx`，277 KB，单文件包含完整网络权重），可直接通过ONNX Runtime加载进行推理，无需依赖Stable-Baselines3或PyTorch框架。
 
 ## 5. 结果
 
